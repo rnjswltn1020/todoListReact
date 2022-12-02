@@ -19,13 +19,7 @@ export default function TodoList() {
       return JSON.parse(localMemories);
     }
 
-    const defaultList = [];
-    let newItem = { ...defaultListObj };
-    for (let i = 0; i < 2; i++) {
-      newItem[i].id = i;
-      newItem[i].description = `dummy test${i}`;
-      defaultList.push(newItem);
-    }
+    const defaultList = [defaultListObj];
 
     return defaultList;
   };
