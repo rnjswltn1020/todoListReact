@@ -15,7 +15,7 @@ let localPostsList = [];
 export default function TodoList() {
   const initList = () => {
     const localMemories = localStorage.getItem("todolist");
-    if (localMemories.length) {
+    if (localMemories) {
       return JSON.parse(localMemories);
     }
 
