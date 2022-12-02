@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rnjswltn1020/TodoList.git/static/css/main.9049e4b0.css",
-    "main.js": "/rnjswltn1020/TodoList.git/static/js/main.b732d478.js",
-    "static/js/787.a5cad257.chunk.js": "/rnjswltn1020/TodoList.git/static/js/787.a5cad257.chunk.js",
-    "index.html": "/rnjswltn1020/TodoList.git/index.html",
-    "main.9049e4b0.css.map": "/rnjswltn1020/TodoList.git/static/css/main.9049e4b0.css.map",
-    "main.b732d478.js.map": "/rnjswltn1020/TodoList.git/static/js/main.b732d478.js.map",
-    "787.a5cad257.chunk.js.map": "/rnjswltn1020/TodoList.git/static/js/787.a5cad257.chunk.js.map"
+    "main.css": "/rnjswltn1020/todoListReact.git/static/css/main.9049e4b0.css",
+    "main.js": "/rnjswltn1020/todoListReact.git/static/js/main.c68403c6.js",
+    "static/js/787.a5cad257.chunk.js": "/rnjswltn1020/todoListReact.git/static/js/787.a5cad257.chunk.js",
+    "index.html": "/rnjswltn1020/todoListReact.git/index.html",
+    "main.9049e4b0.css.map": "/rnjswltn1020/todoListReact.git/static/css/main.9049e4b0.css.map",
+    "main.c68403c6.js.map": "/rnjswltn1020/todoListReact.git/static/js/main.c68403c6.js.map",
+    "787.a5cad257.chunk.js.map": "/rnjswltn1020/todoListReact.git/static/js/787.a5cad257.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9049e4b0.css",
-    "static/js/main.b732d478.js"
+    "static/js/main.c68403c6.js"
   ]
 }
