@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import classNames from "classnames";
 import styles from "../App.module.css";
-const cx = classNames.bind(styles);
 
 const defaultListObj = {
   id: 0,
@@ -66,8 +65,9 @@ export default function TodoList() {
 
   const deleteItem = (target_idx) => {
     if (!target_idx < 0) return;
-
-    setPosts(getPosts.filter((_, idx) => idx !== target_idx));
+    const filtered = getPosts.filter((_, idx) => idx !== target_idx);
+      setPosts(filtered);
+      localPostsList = filtered;
   };
 
   const editItem = (target_idx, e) => {
@@ -103,7 +103,6 @@ export default function TodoList() {
   const changeFilterPosts = (status) => {
     setStatus(status);
     let filtering = [];
-    console.log(status);
     if (status === "unChecked") {
       filtering = localPostsList.filter((item) => item.checked === false);
     } else if (status === "checked") {
